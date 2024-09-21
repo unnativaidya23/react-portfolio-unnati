@@ -29,7 +29,7 @@ const FirstImp = () => {
                     variants={container(0)}
                     initial="hidden"
                     animate="visible"
-                    className="pb-16 text-6xl font-thin tracking-tight ">Unnati Vaidya</motion.h1>
+                    className="lg:pb-16 text-6xl font-thin tracking-tight ">Unnati Vaidya</motion.h1>
                     <motion.span 
                     variants={container(1)}
                     initial="hidden"
