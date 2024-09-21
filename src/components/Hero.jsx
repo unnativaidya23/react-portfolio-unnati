@@ -39,6 +39,7 @@ const FirstImp = () => {
                     variants={container(1)}
                     initial="hidden"
                     animate="visible" 
+                    style={{ wordSpacing: '0.13em' }} 
                     className="my-2 max-w-xl py-6 font-light tracking-tighter">
                     {FirstImp_CONTENT}
                     </motion.p>
@@ -50,7 +51,8 @@ const FirstImp = () => {
                 variants={container2(1.2)}
                 initial="hidden"
                 animate="visible" 
-                className=" rounded-2xl ml-32 " width={400} height={400} src={profilePic} alt="pp"/>
+                
+                className=" rounded-2xl lg:ml-32 lg: mb-12" width={400} height={400} src={profilePic} alt="pp"/>
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ const Technologies = () => {
         whileInView={{opacity:1, x:0}}
         initial= {{x:-100, opacity:0}}
         transition={{duration:1}}
-        className="flex items-center justify-center gap-4 lg:flex-wrap">
+        className="flex  items-center justify-center gap-4 lg:gap-4 flex-wrap">
             <motion.div 
             variants={iconVariants(4)}
             intial = "intial"

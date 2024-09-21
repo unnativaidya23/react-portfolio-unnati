@@ -18,7 +18,7 @@ const About = () => {
                        whileInView={{opacity:1, x:0}}
                        initial= {{x:-100, opacity:0}}
                        transition={{duration:0.5}}
-                       className="rounded-2xl " width={300} height={300} src={aboutImg} alt="about"/>
+                       className="rounded-2xl pb-14" width={300} height={300} src={aboutImg} alt="about"/>
                     </div>
                 </div>
                 <div className="w-full ">
@@ -27,6 +27,7 @@ const About = () => {
                              whileInView={{opacity:1, x:0}}
                              initial= {{x:100, opacity:0}}
                              transition={{duration:0.5}}
+                             style={{ wordSpacing: '5px' }} 
                             className="my-2  leading-none max-w-xl py-6 font-light tracking-tighter">{ABOUT_TEXT}</motion.p>
                         </div>
                     </div>
