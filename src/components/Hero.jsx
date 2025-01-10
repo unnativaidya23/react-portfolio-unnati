@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 const container = (delay) =>({
     hidden: {x:-100, opacity:0},
     visible: {
+        
         x:0,
         opacity:1,
         transition : {duration: 0.5, delay: delay },
@@ -39,8 +40,7 @@ const FirstImp = () => {
                     variants={container(1)}
                     initial="hidden"
                     animate="visible" 
-                    style={{ wordSpacing: '0.13em' }} 
-                    className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                    className="my-2 max-w-xl py-6 font-light tracking-tight">
                     {FirstImp_CONTENT}
                     </motion.p>
                 </div>
@@ -52,7 +52,7 @@ const FirstImp = () => {
                 initial="hidden"
                 animate="visible" 
                 
-                className=" rounded-2xl lg:ml-32 lg: mb-12" width={400} height={400} src={profilePic} alt="pp"/>
+                className=" rounded-2xl lg:ml-32 lg: mb-12" width={400} height={400} src="src\assets\aboutme.jpeg" alt="pp"/>
                 </div>
             </div>
         </div>
